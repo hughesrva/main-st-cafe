@@ -1,13 +1,16 @@
 html {
   height: 100%;
-  overflow: hidden;
+}
+
+.section {
+  padding: 48px 24px 0px 24px;
 }
 
 body {
   background-color: #eadeda;
   font-family: "Inconsolata", monospace;
   height: 100%;
-  overflow: hidden;
+  padding-bottom: 20px;
 }
 
 #logo {
