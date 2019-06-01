@@ -1,9 +1,25 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #eadeda;
+  font-family: "Inconsolata", monospace;
+  height: 100%;
+  overflow: hidden;
+}
+
 #logo {
   height: 102px;
   width: 324px;
   margin: auto;
 }
 
+p,
+h3 {
+  color: #473c3f !important;
+}
 * {
   box-sizing: border-box;
 }
@@ -52,15 +68,25 @@
 }
 
 .map-container {
-  width: 300px;
-  height: 300px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 300px;
 }
 
-
-.card {
+.box {
   margin: 10px;
-  max-width: 200px;
-  max-height: 200px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  background-color: #83af9c;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: #83af9c;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-color: #83af9c;
+  color: #473c3f !important;
 }

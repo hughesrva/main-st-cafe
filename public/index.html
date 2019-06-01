@@ -6,12 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Main St Cafe - Home</title>
 
+    <!-- bulma css -->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
@@ -26,9 +33,10 @@
               </h3>
             </div>
             <a href="/menu">
-              <button class="button">Our Menu</button>
+              <button class="button is-large">Our Menu</button>
             </a>
           </div>
+
           <!-- logo -->
           <div class="column">
             <div class="content">
@@ -80,31 +88,21 @@
         </div>
         <br />
 
-        <div class="columns">
-          <div class="column card has-text-centered">
+        <div class="columns is-vcentered">
+          <div class="column box has-text-centered is-one-half">
             <div class="content">
-              <p>Have questions?</p>
-              <p>Looking for delivery?</p>
-              <p>Give us a call at</p>
-              <p><strong>804-352-5886!</strong></p>
+              <h1 class="title">Have questions?</h1>
+              <h1 class="title">Looking for delivery?</h1>
+              <h1 class="title">Give us a call at 804-352-5886!</h1>
             </div>
           </div>
 
-          <div class="column has-text-centered">
+          <div class="column has-text-centered is-one-half">
             <iframe
               class="map-container"
-              width="300px"
-              height="300px"
               src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ4R2NJk0HsYkRl6QwYdHlvW0&key=AIzaSyDv_OSgmEAsHBbC6AGgC13_FoJ5E2jakPY"
               allowfullscreen
             ></iframe>
-          </div>
-          <div class="column card has-text-centered">
-            <div class="content">
-              <h3 class="subtitle">Yadda</h3>
-              <h3 class="subtitle">Yadda</h3>
-              <h3 class="subtitle">Yadda</h3>
-            </div>
           </div>
         </div>
       </div>
@@ -115,6 +113,8 @@
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
+      height="450px"
+      width="600px"
     ></script>
     <!-- custom js -->
     <script src="app.js"></script>
