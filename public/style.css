@@ -42,6 +42,7 @@ h3 {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  text-align: center;
 }
 /* Fading animation */
 .fade {
@@ -77,9 +78,8 @@ h3 {
 .slide-img {
   max-height: 400px;
   max-width: 100%;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+  vertical-align: middle;
+  object-fit: contain;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -119,7 +119,6 @@ h3 {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 
 .name {
   font-weight: bold;
